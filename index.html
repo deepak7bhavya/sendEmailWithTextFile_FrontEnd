@@ -1,0 +1,207 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="file.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="file.js">
+    
+    
+    </script>
+</head>
+
+<body>
+    <div id=modal>
+        <form id="myForm"  >
+
+            <div id=first>
+                <h4> Hosting </h4>
+                <div id=hosting>
+                    <table id=host>
+                        <tr>
+                            <td> AWS </td>
+                            <td> <input type="radio" name="hostdata" value="AWS"> </td>
+                        </tr>
+                        <tr>
+                            <td> Azure </td>
+                            <td> <input type="radio" name="hostdata" value="Azure"> </td>
+                        </tr>
+                        <tr>
+                            <td> GCP </td>
+                            <td> <input type="radio" name="hostdata" value="GCP"> </td>
+                        </tr>
+                        <tr>
+                            <td> Other Cloud </td>
+                            <td> <input type="radio" name="hostdata" value="Other Cloud"> </td>
+                        </tr>
+                        <tr>
+                            <td> On-prem </td>
+                            <td> <input type="radio" name="hostdata" value="On-prem"> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id=second>
+                <h4> Big Data </h4>
+                <div id=bigdata>
+                    <table>
+                        <tr>
+                            <td> AWS EMR </td>
+                            <td> <input type="radio" name="bigdata" value="AWS EMR"> </td>
+                        </tr>
+                        <tr>
+                            <td> HDP on AWS </td>
+                            <td> <input type="radio" name="bigdata" value="HDPAWS"> </td>
+                        </tr>
+                        <tr>
+                            <td> Azure HDInsight </td>
+                            <td> <input type="radio" name="bigdata" value="Azure HD"> </td>
+                        </tr>
+                        <tr>
+                            <td> HDP On-Prem </td>
+                            <td> <input type="radio" name="bigdata" value="HDPPrem"> </td>
+                        </tr>
+                        <tr>
+                            <td> Cloudera </td>
+                            <td> <input type="radio" name="bigdata" value="Cloudera"> </td>
+                        </tr>
+                        <tr>
+                            <td> Others </td>
+                            <td> <input type="radio" name="bigdata" value="Others"> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id=third>
+                <h4> ETL </h4>
+                <div id=etl>
+                    <table>
+                        <tr>
+                            <td> AWS Glue </td>
+                            <td> <input type="radio" name="etldata" value="AWS Glue"> </td>
+                        </tr>
+                        <tr>
+                            <td> Azure Data Factory</td>
+                            <td> <input type="radio" name="etldata" value="AzureDF"> </td>
+                        </tr>
+                        <tr>
+                            <td> SSIS </td>
+                            <td> <input type="radio" name="etldata" value="SSIS"> </td>
+                        </tr>
+                        <tr>
+                            <td> Informatica </td>
+                            <td> <input type="radio" name="etldata" value="Informatica"> </td>
+                        </tr>
+                        <tr>
+                            <td> Talend </td>
+                            <td> <input type="radio" name="etldata" value="Talend"> </td>
+                        </tr>
+                        <tr>
+                            <td> Sqoop</td>
+                            <td> <input type="radio" name="etldata" value="Sqoop"> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id=fourth>
+                <h4> ML Engine </h4>
+                <div id=mlengine>
+                    <table id=ml>
+                        <tr>
+                            <td> AWS Sagemaker </td>
+                            <td> <input type="radio" name="mldata" value="AWSSage"> </td>
+                        </tr>
+                        <tr>
+                            <td> Azure ML Studio </td>
+                            <td> <input type="radio" name="mldata" value="AzureML"> </td>
+                        </tr>
+                        <tr>
+                            <td> H2O </td>
+                            <td> <input type="radio" name="mldata" value="H2O"> </td>
+                        </tr>
+                        <tr>
+                            <td> ICP for Data (IBM)</td>
+                            <td> <input type="radio" name="mldata" value="IBM"> </td>
+                        </tr>
+                        <tr>
+                            <td> Python </td>
+                            <td> <input type="radio" name="mldata" value="Python"> </td>
+                        </tr>
+                        <tr>
+                            <td> R </td>
+                            <td> <input type="radio" name="mldata" value="R"> </td>
+                        </tr>
+                        <tr>
+                            <td> Spark MLLib </td>
+                            <td> <input type="radio" name="mldata" value="Spark"> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id=fifth>
+                <h4> Visualization </h4>
+                <div id=visualization>
+                    <table id=vis>
+                        <tr>
+                            <td> Power BI </td>
+                            <td> <input type="radio" name="visdata" value="Power"> </td>
+                        </tr>
+                        <tr>
+                            <td> Tableau </td>
+                            <td> <input type="radio" name="visdata" value="Tableau"> </td>
+                        </tr>
+                        <tr>
+                            <td> Zoom </td>
+                            <td> <input type="radio" name="visdata" value="Zoom"> </td>
+                        </tr>
+                        <tr>
+                            <td> Others </td>
+                            <td> <input type="radio" name="visdata" value="Others"> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id=sixth>
+                <h4> Speech Analysis </h4>
+                <div id=speechanalysis>
+                    <table id=speech>
+                        <tr>
+                            <td> AWS Polly</td>
+                            <td> <input type="radio" name="speechdata" value="AWSPolly"> </td>
+                        </tr>
+                        <tr>
+                            <td> Google </td>
+                            <td> <input type="radio" name="speechdata" value="Google"> </td>
+                        </tr>
+                        <tr>
+                            <td> NICE </td>
+                            <td> <input type="radio" name="speechdata" value="NICE"> </td>
+                        </tr>
+                        <tr>
+                            <td> Verint </td>
+                            <td> <input type="radio" name="speechdata" value="Verint"> </td>
+                        </tr>
+                        <tr>
+                            <td> Watson Speech to Text </td>
+                            <td> <input type="radio" name="speechdata" value="Watson"> </td>
+                        </tr>
+                        <tr>
+                            <td> Others </td>
+                            <td> <input type="radio" name="speechdata" value="Others"> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+        </form>
+        <input type="email" id="myemail" placeholder="Sender EMail" />
+        <input type="password" id='password' placeholder="password">
+        <input type = "email" id="target" placeholder="Target Email"/>
+        <button id="submitbtn" onclick="submit_data()">Send</button>
+
+    </div>
+
+
+
+</body>
+
+</html>
